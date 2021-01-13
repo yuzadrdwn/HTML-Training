@@ -1,9 +1,5 @@
 /* Media responsive tablet */
 @media all and (max-width: 1000px) {
-  .product-item {
-    width: 50%;
-    display: block;
-  }
 }
 
 /* Media responsive smartphone */
