@@ -1,7 +1,21 @@
 /* Media responsive tablet */
 @media all and (max-width: 1000px) {
+  .product {
+    width: 50%;
+  }
+
+  .heading-product h2 {
+    font-size: 20px;
+  }
+
+  .product p {
+    margin-bottom: 50px;
+  }
 }
 
 /* Media responsive smartphone */
 @media all and (max-width: 670px) {
+  .product {
+    width: 100%;
+  }
 }
