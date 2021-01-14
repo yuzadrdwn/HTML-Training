@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
 }
-
 .container {
   max-width: 1170px;
   margin: 0 auto;
@@ -114,4 +113,34 @@
   100% {
     opacity: 1;
   }
+}
+
+body {
+  font-family: "Avenir Next";
+}
+.container {
+  width: 100px auto;
+  margin: 0 auto;
+  border: 0px solid;
+}
+.container::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+header {
+  border: 0px solid;
+  background-color: rgb(182, 211, 211);
+}
+header h1 {
+  border: 0px solid;
+  float: left;
+  margin: 10px;
+}
+header h2 {
+  border: 0px solid;
+  float: right;
+  padding: 1px;
+  margin: 15px;
+  font-size: 15px;
 }
