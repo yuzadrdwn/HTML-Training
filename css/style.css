@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  list-style: none;
 }
 .container {
   max-width: 1170px;
@@ -130,14 +131,27 @@ body {
 }
 header {
   border: 0px solid;
-  background-color: rgb(182, 211, 211);
+  background-color: #75caf1;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.7);
 }
 header h1 {
   border: 0px solid;
+}
+.logo-text {
+  padding: 0 0 0 20px;
+  text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.7);
+  font-size: 25px;
   float: left;
   margin: 10px;
+  color: #fff;
+}
+a {
+  text-decoration: none;
 }
 header h2 {
+  border: 0px solid;
+}
+header ul li {
   border: 0px solid;
   float: right;
   padding: 1px;
@@ -151,7 +165,7 @@ main {
 
 .landing {
   min-height: 100vh;
-  background-image: url("../JPG/6.JPG");
+  background-image: url("../image/6.JPG");
   background-size: cover;
   padding: 0rem 5rem;
   opacity: 0.8;
@@ -256,7 +270,7 @@ nav {
   border-bottom: 1px solid #eee;
   padding-bottom: 90px;
   text-align: center;
-  background-image: url(../gambar5.png);
+  background-image: url(../image/gambar5.png);
   background-size: cover;
 }
 .heading {
@@ -289,4 +303,17 @@ nav {
   position: relative;
   top: 7px;
   box-shadow: none;
+  list-style-type: none;
+  display: inline-block;
+}
+header ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 2px 2px;
+  transition: 0.9s;
+  margin-top: 2px;
+}
+header ul li a:hover {
+  text-shadow: 3px 10px 5px rgb(255, 255, 255);
+  color: black;
 }
