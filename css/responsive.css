@@ -4,4 +4,7 @@
 
 /* Media responsive smartphone */
 @media all and (max-width: 670px) {
+    footer {
+        text-align: center;
+    }
 }
