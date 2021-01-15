@@ -11,11 +11,18 @@
   .product p {
     margin-bottom: 50px;
   }
+
+  .heading h2 {
+    font-size: 20px;
+  }
 }
 
 /* Media responsive smartphone */
 @media all and (max-width: 670px) {
   .product {
+    width: 100%;
+  }
+  .btn {
     width: 100%;
   }
 }
