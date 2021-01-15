@@ -17,17 +17,37 @@ body {
 }
 header{
   border: 0px solid;
-  background-color: rgb(182, 211, 211);
+  background-color: #75caf1;
+  box-shadow:3px 3px 3px 3px rgba(0,0,0,0.7);
 }
-header h1{
-  border: 0px solid;
+.logo-text{
+  padding:0 0 0 20px;
+  text-shadow: 10px 10px  10px rgba(0,0,0,0.7);
+  font-size: 25px;
   float: left;
   margin: 10px;
+  color:#fff;
 }
-header h2 {
+a {
+  text-decoration: none;
+}
+header ul li{
   border:0px solid;
   float: right;
   padding: 1px;
   margin: 15px;
   font-size: 15px;
+  list-style-type: none;
+  display: inline-block;
+}
+header ul li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 2px 2px;
+  transition: 0.9s;
+  margin-top: 2px;
+}
+header ul li a:hover{
+  text-shadow: 3px 10px 5px rgb(255,255,255);
+  color:black;
 }
