@@ -2,3 +2,42 @@
   margin: 0;
   padding: 0;
 }
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 90px;
+  text-align: center;
+  background-image: url(../gambar5.png);
+  background-size: cover;
+}
+.heading {
+  padding-top: 60px;
+  padding-bottom: 40px;
+  color: lightslategray;
+}
+
+.heading h2 {
+  font-weight: normal;
+  margin-bottom: 25px;
+  font-family: 'Courier New', Courier, monospace;
+  opacity: 1;
+  color: #00a170;
+}
+.heading h3 {
+  padding-bottom: 5px;
+}
+.message {
+  padding: 10px 40px;
+  background-color: #00a170;
+  cursor: pointer;
+  box-shadow: 0 7px #a0daa9;
+  border-radius: 5px;
+  color: #eee;
+  font-weight: bold;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}

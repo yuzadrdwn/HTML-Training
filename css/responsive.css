@@ -1,7 +1,15 @@
 /* Media responsive tablet */
 @media all and (max-width: 1000px) {
+    .heading h2 {
+        font-size: 20px;
+      }
+
 }
 
 /* Media responsive smartphone */
 @media all and (max-width: 670px) {
+    .btn {
+        width: 100%;
+      }
+
 }
